@@ -1,7 +1,7 @@
 class APrime():
 	def __init__(self):
 		self.count=0
-		self.isPrime= self.create_primes()
+		self.is_prime= self.create_primes()
 
 	def create_primes(self):
 		isPrime=[True for i in range(0,101)]
@@ -14,7 +14,7 @@ class APrime():
 		return isPrime
 
 	def check_win(self,number):
-		if(self.isPrime[number]):
+		if(self.is_prime[number]):
 			self.count+=1
 
 		if(self.count>=1):
