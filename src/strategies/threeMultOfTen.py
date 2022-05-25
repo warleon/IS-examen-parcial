@@ -1,4 +1,4 @@
-class threeMultOfTen:
+class ThreeMultOfTen:
 	def __init__(self):
 		self.count=0
 

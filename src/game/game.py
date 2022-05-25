@@ -20,8 +20,8 @@ class Game(metaclass=SingletonMeta):
 		for player,strategy in self.players:
 			if strategy.check_win(number):
 				notify(f'{player.name} won!')
-				return true
-		return false
+				return True
+		return False
 
 	def generate_number(self):
 		value = randint(0, 100)
