@@ -1,4 +1,4 @@
-#the code was acquired from: https://refactoring.guru/design-patterns/singleton/python/example#example-1
+#The code was acquired from: https://refactoring.guru/design-patterns/singleton/python/example#example-1
 
 from threading import Lock, Thread
 
